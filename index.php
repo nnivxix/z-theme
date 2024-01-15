@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <article>
-    <h1 class="text-red-500 text-3xl">Z Blog theme </h1>
+    <h1 class="text-red-500 text-3xl font-bold">Z Blog theme </h1>
     <p>Halo</p>
 </article>
 

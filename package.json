@@ -1,4 +1,11 @@
 {
+	"name": "zthemewp",
+	"private": true,
+	"description": "z theme wordpress theme",
+	"version": "0.0.1",
+	"scripts": {
+		"watch-tw" : "pnpx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
 	"devDependencies": {
 		"tailwindcss": "^3.4.1"
 	}
