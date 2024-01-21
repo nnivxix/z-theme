@@ -1,5 +1,7 @@
 <navbar class="flex max-w-7xl mx-auto justify-between my-2 px-3 font-serif border-b-2 pb-1">
-  <h1 class="text-2xl font-semibold"> <?php echo get_bloginfo('name'); ?> </h1>
+  <a href="<?php echo home_url() ?>">
+    <h1 class="text-2xl font-semibold"> <?php echo get_bloginfo('name'); ?> </h1>
+  </a>
 
   <?php
   wp_nav_menu(
