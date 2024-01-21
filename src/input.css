@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.menu {
+    @apply hidden md:block;
+}
+
 .menu > ul {
     @apply flex gap-3 text-lg ;
 }
