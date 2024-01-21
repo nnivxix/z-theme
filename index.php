@@ -2,9 +2,12 @@
 get_header();
 ?>
 
-<article>
-    <h1 class="text-red-500 text-3xl font-bold">Z Blog theme </h1>
-    <p>Halo</p>
+<article class="max-w-7xl mx-auto">
+
+    <?php
+    get_template_part("template-parts/template", "firstpost");
+    ?>
+
 </article>
 
 
