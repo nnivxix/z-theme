@@ -10,10 +10,18 @@
     @apply flex gap-3 text-lg ;
 }
 
+.menu-mobile {
+    @apply absolute top-12 bg-white w-full left-0 text-right px-5;
+}
+
+.hide {
+    @apply hidden;
+}
+
 .current_page_item {
     @apply underline ;
 }
 
 .page_item {
-    @apply  underline-offset-[14px];
+    @apply  md:underline-offset-[14px];
 }
