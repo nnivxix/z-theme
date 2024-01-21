@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu > ul {
+    @apply flex gap-3 text-lg ;
+}
+
+.current_page_item {
+    @apply underline ;
+}
+
+.page_item {
+    @apply  underline-offset-[14px];
+}
