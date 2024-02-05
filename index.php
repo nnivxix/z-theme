@@ -7,6 +7,18 @@ get_header();
     <?php
     get_template_part("template-parts/template", "firstpost");
     ?>
+    <?php
+    get_template_part("template-parts/template", "firstpost");
+    ?>
+    <?php
+    get_template_part("template-parts/template", "firstpost");
+    ?>
+    <?php
+    get_template_part("template-parts/template", "firstpost");
+    ?>
+    <?php
+    get_template_part("template-parts/template", "firstpost");
+    ?>
 
 </article>
 

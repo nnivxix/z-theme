@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply overflow-x-hidden;
+}
 .menu {
     @apply hidden md:block;
+}
+
+.bi {
+    @apply w-9 h-9;
 }
 
 .menu > ul {
@@ -11,11 +18,17 @@
 }
 
 .menu-mobile {
-    @apply absolute top-12 bg-white w-full left-0 text-right px-5;
+    @apply absolute top-12 bg-white w-full h-screen left-0 text-right px-5 translate-x-full transition mt-2;
+}
+.menu-mobile > ul > li {
+    @apply text-3xl py-1;
+}
+.slide {
+    @apply translate-x-0  ;
 }
 
-.hide {
-    @apply hidden;
+.scroll-lock {
+    @apply overflow-y-hidden;
 }
 
 .current_page_item {

@@ -604,10 +604,6 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -690,6 +686,10 @@ video {
   font-weight: 600;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .menu {
   display: none;
 }
@@ -698,6 +698,11 @@ video {
   .menu {
     display: block;
   }
+}
+
+.bi {
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 .menu > ul {
@@ -711,16 +716,37 @@ video {
   position: absolute;
   top: 3rem;
   left: 0px;
+  margin-top: 0.5rem;
+  height: 100vh;
   width: 100%;
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   text-align: right;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-.hide {
-  display: none;
+.menu-mobile > ul > li {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.slide {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scroll-lock {
+  overflow-y: hidden;
 }
 
 .current_page_item {
