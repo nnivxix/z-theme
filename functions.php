@@ -3,8 +3,8 @@
 function theme_style()
 {
     // https://codingoblin.com/install-tailwindcss-in-wordpress-theme/
-    // wp_enqueue_style('output-tailwind', get_template_directory_uri() . '/dist/output.css', array(), null);
-    wp_enqueue_style('output-tailwind', get_template_directory_uri() . '/dist/output.css', array(), '1.0', 'all');
+    wp_enqueue_style('output-tailwind', get_template_directory_uri() . '/dist/output.css', array(), null);
+    // wp_enqueue_style('output-tailwind', get_template_directory_uri() . '/dist/output.css', array(), '1.0', 'all');
     // wp_enqueue_style('z-theme-style', get_template_directory_uri() . "/style.css", array("z-theme-main-css"), "all");
 }
 

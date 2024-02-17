@@ -38,3 +38,7 @@ body {
 .page_item {
     @apply  md:underline-offset-[14px];
 }
+
+#single > * {
+    @apply py-3 text-xl
+}
